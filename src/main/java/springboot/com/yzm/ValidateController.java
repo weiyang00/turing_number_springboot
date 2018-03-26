@@ -19,8 +19,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author 张自豪:zzh431@taohuichang.com
- * @date 2016/9/20
+ * @author weiyang
+ * @date 2018/3/23
  */
 @Controller
 @RequestMapping("/security")

@@ -5,8 +5,8 @@ import com.github.bingoohuang.patchca.custom.ConfigurableCaptchaService;
 import com.github.bingoohuang.patchca.word.RandomWordFactory;
 
 /**
- * @author 张自豪:zzh431@taohuichang.com
- * @date 2016/9/20
+ * @author weiyang
+ * @date 2018/3/23
  */
 public class CaptchaFactory {
 
@@ -15,7 +15,7 @@ public class CaptchaFactory {
     static {
         cs.setColorFactory(new RandomColorFactory());
         RandomWordFactory wf = new RandomWordFactory();
-        wf.setCharacters("1234567890");
+        wf.setCharacters("1234567890AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz");
         wf.setMaxLength(4);
         wf.setMinLength(4);
         cs.setWordFactory(wf);

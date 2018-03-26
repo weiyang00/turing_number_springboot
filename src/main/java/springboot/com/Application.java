@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 该类为springboot 启动类
- * Created by zhangzihao on 2016/6/8.
+ * Created by weiyang on 2018/3/23.
  */
 @SpringBootApplication
 @RestController
@@ -17,7 +17,7 @@ public class Application extends SpringBootServletInitializer implements Embedde
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
-        System.out.println("start finsh !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
+        System.out.println("start !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ");
     }
 
     @Override
